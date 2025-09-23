@@ -9,7 +9,7 @@ while not entradaValida:
             print("El precio no puede ser negativo")
             entradaValida = False
         else:
-            print ("El precio del producto con IVA es de:", precio_producto + iva*precio_producto, "€")
+            print ("El precio del producto con IVA es de:", precio_producto + IVA*precio_producto, "€")
             entradaValida = True
     except ValueError:
         print("Introduzca un número por favor.")
