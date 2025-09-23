@@ -1,7 +1,7 @@
 # Calcula el precio final sumando al precio sin IVA el porcentaje de IVA indicado.
 print("Este programa calculará el precio del producto con IVA.")
 entradaValida = False
-iva=0.21
+IVA=0.21
 while not entradaValida:
     try:
         precio_producto = float(input("Por favor, a continuación introduzca el precio del producto sin IVA:\n"))
